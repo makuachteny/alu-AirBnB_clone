@@ -1,0 +1,49 @@
+/* FILTERS*/
+.filters {
+  /* color: white; */
+  display: flex;
+  height: 70px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  align-items: center;
+}
+/* BUTTON */
+.filters button {
+  float: right;
+  height: 48px;
+  width: 20%;
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  /* align-items: center; */
+  margin-left: 220px;
+  /* margin-top: 12px; */
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+/* change opacity to 90% when the mouse is on the button */
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.locations {
+  height: 100%;
+  width: 25%;
+  border-right: 1px solid #dddddd;
+}
+.amenities {
+  height: 100%;
+  width: 25%;
+}
+.filters h3 {
+  font-weight: 600;
+  margin-left: 40px;
+}
+.filters h4 {
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 40px;
+}
